@@ -25,7 +25,6 @@ const Index = () => {
         <div 
           className="absolute inset-0 -z-10 bg-[#0A0A0A]"
         />
-        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -48,7 +47,6 @@ const Index = () => {
               <TextGenerateEffect words="confidence & security" />
             </span>
           </h1>
-          
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -58,7 +56,6 @@ const Index = () => {
             Experience seamless cryptocurrency trading with advanced features, real-time analytics, and institutional-grade security.{" "}
             <span className="text-white">Start trading in minutes.</span>
           </motion.p>
-          
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -73,7 +70,6 @@ const Index = () => {
             </Button>
           </motion.div>
         </div>
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -89,25 +85,20 @@ const Index = () => {
           </div>
         </motion.div>
       </motion.section>
-
       {/* Logo Carousel */}
       <LogoCarousel />
-
       {/* Features Section */}
       <div id="features" className="bg-black">
         <FeaturesSection />
       </div>
-
       {/* Pricing Section */}
       <div id="pricing" className="bg-black">
         <PricingSection />
       </div>
-
       {/* Testimonials Section */}
       <div className="bg-black">
         <TestimonialsSection />
       </div>
-
       {/* CTA Section */}
       <section className="container px-4 py-20 relative bg-black">
         <div 
@@ -136,7 +127,6 @@ const Index = () => {
           </Button>
         </motion.div>
       </section>
-
       {/* Footer */}
       <div className="bg-black">
         <Footer />
@@ -144,5 +134,4 @@ const Index = () => {
     </div>
   );
 };
-
 export default Index;
